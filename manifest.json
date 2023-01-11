@@ -1,0 +1,15 @@
+{
+    "name": "name",
+    "version": "0.01",
+    "description": "Adds a link to bring you to the open.kattis.com version of Kattis problems ",
+    "content_scripts": [
+        {
+            "matches": ["*://*.kattis.com/*"],
+            "js": ["contentScript.js"],
+            "css": ["contentScript.css"],
+            "run_at": "document_end"
+        }
+    ],
+    "host_permissions": ["*://*.kattis.com/*"],
+    "manifest_version": 3
+}

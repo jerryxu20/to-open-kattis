@@ -1,0 +1,8 @@
+.open-kattis {
+    position: absolute;
+    top: 18px;
+    cursor: pointer;
+    font-size: var(--font-xsmall);
+    background-color: none;
+    border: none;
+}
